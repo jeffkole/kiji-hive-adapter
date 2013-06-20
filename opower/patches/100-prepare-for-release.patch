@@ -24,33 +24,6 @@ index 0ac61c2..8598d0a 100644
      <relativePath>..</relativePath>
    </parent>
  
-diff --git a/opower/patches/100-prepare-for-release.patch b/opower/patches/100-prepare-for-release.patch
-index 6327496..e69de29 100644
---- a/opower/patches/100-prepare-for-release.patch
-+++ b/opower/patches/100-prepare-for-release.patch
-@@ -1,22 +0,0 @@
--diff --git a/pom.xml b/pom.xml
--index 320df41..c13f56b 100644
----- a/pom.xml
--+++ b/pom.xml
--@@ -21,7 +21,7 @@
-- 
--   <groupId>org.kiji.hive</groupId>
--   <artifactId>kiji-hive-root</artifactId>
---  <version>0.3.0</version>
--+  <version>0.3.0-opower-1</version>
--   <packaging>pom</packaging>
-- 
--   <parent>
--@@ -36,7 +36,7 @@
-- 
--   <properties>
--     <hive.version>0.9.0-cdh4.1.2</hive.version>
---    <kiji-schema.version>1.0.0</kiji-schema.version>
--+    <kiji-schema.version>1.0.2-opower-5</kiji-schema.version>
--     <fake-hbase.version>0.0.4</fake-hbase.version>
--   </properties>
-- 
 diff --git a/pom.xml b/pom.xml
 index 320df41..dffffd4 100644
 --- a/pom.xml
